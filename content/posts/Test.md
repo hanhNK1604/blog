@@ -1,7 +1,7 @@
 ---
 title: Posts
 description: Danh sách các bài viết gần đây
-tags: [posts],
+tags: [posts]
 ---
 
 # Section 1
