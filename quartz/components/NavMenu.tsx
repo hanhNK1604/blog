@@ -7,13 +7,14 @@ interface Options {
   items: NavItem[]
 }
 
-export default ((opts: Options) => {
+export default ((opts?: Options) => {
+  const options = opts ?? { items: [] }
   const NavMenu: QuartzComponent = ({ displayClass, fileData }: QuartzComponentProps) => {
     const baseDir = pathToRoot(fileData.slug!)
     return (
       <nav class={classNames(displayClass, "nav-menu")}> 
         <ul>
-          {opts.items.map((it) => (
+          {options.items.map((it) => (
             <li>
               <a href={joinSegments(baseDir, it.link.replace(/^\//, ""))}>{it.text}</a>
             </li>
@@ -71,6 +72,6 @@ export default ((opts: Options) => {
 `
 
   return NavMenu
-}) satisfies QuartzComponentConstructor
+}) satisfies QuartzComponentConstructor<Options | undefined>
 
 
