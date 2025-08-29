@@ -1,0 +1,15 @@
+@use "./base.scss";
+
+// put your custom CSS here!
+
+/* Light-mode background image */
+body {
+  background-image: url("/static/light-background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+:root[saved-theme="dark"] body {
+  background-image: url("/static/dark-background.png");
+}
