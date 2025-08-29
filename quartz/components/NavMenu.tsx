@@ -1,4 +1,5 @@
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
+import { pathToRoot, joinSegments } from "../util/path"
 import { classNames } from "../util/lang"
 
 type NavItem = { text: string; link: string }
@@ -7,13 +8,14 @@ interface Options {
 }
 
 export default ((opts: Options) => {
-  const NavMenu: QuartzComponent = ({ displayClass }: QuartzComponentProps) => {
+  const NavMenu: QuartzComponent = ({ displayClass, fileData }: QuartzComponentProps) => {
+    const baseDir = pathToRoot(fileData.slug!)
     return (
       <nav class={classNames(displayClass, "nav-menu")}> 
         <ul>
           {opts.items.map((it) => (
             <li>
-              <a href={it.link}>{it.text}</a>
+              <a href={joinSegments(baseDir, it.link.replace(/^\//, ""))}>{it.text}</a>
             </li>
           ))}
         </ul>
