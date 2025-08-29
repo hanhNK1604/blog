@@ -5,9 +5,9 @@ tags: [posts]
 ---
 
 # Section 1
-hello
-![[Blog page (6).png]]
+xin buổi sáng
 
+[This is the natural disaster to worry about](https://www.youtube.com/watch?v=AFXLZ7FEJc4&t=2046s)
 
 # Section 2
 
