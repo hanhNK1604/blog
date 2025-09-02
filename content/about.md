@@ -12,14 +12,5 @@ Một số chủ đề mình quan tâm:
 - Xác suất — Thống kê
 - Học máy, học sâu
 
-Ví dụ inline math: $ e^{i\pi} + 1 = 0 $.
-
-Ví dụ block math:
-
-$$
-\nabla_\theta \mathcal{L}(\theta) = \mathbb{E}_{x \sim \mathcal{D}}\big[ \nabla_\theta \ell(f_\theta(x), y) \big].
-$$
-
-Đi tiếp tới: [[research]] · [[contact]] · [[index]]
 
 
