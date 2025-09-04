@@ -37,12 +37,13 @@ $$A =
 \vdots \\
 \rule[0.5ex]{1cm}{0.4pt} \; r_m^T \; \rule[0.5ex]{1cm}{0.4pt}
 \end{bmatrix}$$
+
 Sau này chúng ta sẽ làm việc với cách viết hai ma trận như trên, tại sao thì về sau sẽ rõ. 
 
 ## Phép cộng ma trận 
 
-
 Xét hai ma trận $A, B \in R^{m \times n}$
+
 
 $$A =
 \begin{bmatrix}
@@ -67,6 +68,7 @@ a_{21} + b_{21} & a_{22} + b_{22} & \cdots & a_{2n} + b_{2n} \\
 a_{m1} + b_{m1} & a_{m2} + b_{m2} & \cdots & a_{mn} + b_{mn}
 \end{bmatrix}
 $$
+
 
 Phép cộng ma trận chính là cộng các vector cột (hàng) tương ứng của A với các cột tương ứng của B, và hiển nhiên hai ma trận phải cùng kích thước thì mới cộng được. 
 
