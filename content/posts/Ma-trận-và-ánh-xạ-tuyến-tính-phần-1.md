@@ -20,23 +20,12 @@ Chú ý: Một vector cũng chính là 1 ma trận 1 cột.
 
 Ngoài ra ta có thể nhìn ma trận A thành vector hàng mà các thành phần là các vector cột:
 
-$$\begin{bmatrix}
-| & | &        & | \\
-v_1 & v_2 & \cdots & v_m \\
-| & | &        & |
-\end{bmatrix}
-$$
+$$\begin{bmatrix}| & | &        & | \\ v_1 & v_2 & \cdots & v_m \\ | & | &        & \end{bmatrix} $$
 
 Hoặc là vector cột mà các thành phần là vector hàng: 
 
 
-$$A =
-\begin{bmatrix}
-\rule[0.5ex]{1cm}{0.4pt} \; r_1^T \; \rule[0.5ex]{1cm}{0.4pt} \\
-\rule[0.5ex]{1cm}{0.4pt} \; r_2^T \; \rule[0.5ex]{1cm}{0.4pt} \\
-\vdots \\
-\rule[0.5ex]{1cm}{0.4pt} \; r_m^T \; \rule[0.5ex]{1cm}{0.4pt}
-\end{bmatrix}$$
+$$A =\begin{bmatrix} \rule[0.5ex]{1cm}{0.4pt} \; r_1^T \; \rule[0.5ex]{1cm}{0.4pt} \\ \rule[0.5ex]{1cm}{0.4pt} \; r_2^T \; \rule[0.5ex]{1cm}{0.4pt} \\ \vdots \\ \rule[0.5ex]{1cm}{0.4pt} \; r_m^T \; \rule[0.5ex]{1cm}{0.4pt} \end{bmatrix}$$
 
 Sau này chúng ta sẽ làm việc với cách viết hai ma trận như trên, tại sao thì về sau sẽ rõ. 
 
@@ -45,29 +34,7 @@ Sau này chúng ta sẽ làm việc với cách viết hai ma trận như trên,
 Xét hai ma trận $A, B \in R^{m \times n}$
 
 
-$$A =
-\begin{bmatrix}
-a_{11} & a_{12} & \cdots & a_{1n} \\
-a_{21} & a_{22} & \cdots & a_{2n} \\
-\vdots & \vdots & \ddots & \vdots \\
-a_{m1} & a_{m2} & \cdots & a_{mn}
-\end{bmatrix}, \quad
-B =
-\begin{bmatrix}
-b_{11} & b_{12} & \cdots & b_{1n} \\
-b_{21} & b_{22} & \cdots & b_{2n} \\
-\vdots & \vdots & \ddots & \vdots \\
-b_{m1} & b_{m2} & \cdots & b_{mn}
-\end{bmatrix}
-\text{ thì }
-A + B =
-\begin{bmatrix}
-a_{11} + b_{11} & a_{12} + b_{12} & \cdots & a_{1n} + b_{1n} \\
-a_{21} + b_{21} & a_{22} + b_{22} & \cdots & a_{2n} + b_{2n} \\
-\vdots & \vdots & \ddots & \vdots \\
-a_{m1} + b_{m1} & a_{m2} + b_{m2} & \cdots & a_{mn} + b_{mn}
-\end{bmatrix}
-$$
+$$A = \begin{bmatrix} a_{11} & a_{12} & \cdots & a_{1n} \\ a_{21} & a_{22} & \cdots & a_{2n} \\ \vdots & \vdots & \ddots & \vdots \\ a_{m1} & a_{m2} & \cdots & a_{mn} \end{bmatrix}, \quad B = \begin{bmatrix} b_{11} & b_{12} & \cdots & b_{1n} \\ b_{21} & b_{22} & \cdots & b_{2n} \\ \vdots & \vdots & \ddots & \vdots \\ b_{m1} & b_{m2} & \cdots & b_{mn} \end{bmatrix} \text{ thì } A + B = \begin{bmatrix} a_{11} + b_{11} & a_{12} + b_{12} & \cdots & a_{1n} + b_{1n} \\ a_{21} + b_{21} & a_{22} + b_{22} & \cdots & a_{2n} + b_{2n} \\ \vdots & \vdots & \ddots & \vdots \\ a_{m1} + b_{m1} & a_{m2} + b_{m2} & \cdots & a_{mn} + b_{mn} \end{bmatrix} $$
 
 
 Phép cộng ma trận chính là cộng các vector cột (hàng) tương ứng của A với các cột tương ứng của B, và hiển nhiên hai ma trận phải cùng kích thước thì mới cộng được. 
