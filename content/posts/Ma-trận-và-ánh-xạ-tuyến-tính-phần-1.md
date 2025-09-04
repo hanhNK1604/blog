@@ -26,6 +26,7 @@ v_1 & v_2 & \cdots & v_m \\
 | & | &        & |
 \end{bmatrix}
 $$
+
 Hoặc là vector cột mà các thành phần là vector hàng: 
 
 
@@ -39,6 +40,7 @@ $$A =
 Sau này chúng ta sẽ làm việc với cách viết hai ma trận như trên, tại sao thì về sau sẽ rõ. 
 
 ## Phép cộng ma trận 
+
 
 Xét hai ma trận $A, B \in R^{m \times n}$
 

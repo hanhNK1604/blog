@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/Ma trận và ánh xạ tuyến tính.md",
+                "file": "content/posts/Ma-trận-và-ánh-xạ-tuyến-tính-phần-1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Ma trận và ánh xạ tuyến tính"
+              "title": "Ma-trận-và-ánh-xạ-tuyến-tính-phần-1"
             }
           }
         ]
@@ -172,6 +172,10 @@
   },
   "active": "86563fad2f3cce9d",
   "lastOpenFiles": [
+    "content/posts/Ma-trận-và-ánh-xạ-tuyến-tính-phần-2.md",
+    "content/img/Kernel_and_image_of_linear_map.png",
+    "content/img/Unconfirmed 414348.crdownload",
+    "content/posts/Ma-trận-và-ánh-xạ-tuyến-tính-phần-1.md",
     "content/posts/Vector và góc nhìn vector.md",
     "content/posts/Ma trận và ánh xạ tuyến tính.md",
     "content/posts/_index.md",
